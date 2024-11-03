@@ -1,23 +1,51 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Dossiers de build
+build/
+dist/
+.out/
+.next/
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# Environnements locaux et IDE
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+
+# Fichiers de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache de dépendances et de package managers
+.pnpm-store/
+.cache/
+.parcel-cache/
+
+# Configurations environnementales
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Tailwind CSS et autres CSS générés automatiquement
+postcss.config.js
+tailwind.config.js
+
+# Fichiers de test et coverage
+coverage/
+*.test.js
+*.spec.js
+jest.config.js
+__tests__/
+__mocks__/
+
+# Dossier de Playroom (si applicable)
+playroom/build/
+
+# Configurations temporaires ou de système
+.temp/
+.history/
